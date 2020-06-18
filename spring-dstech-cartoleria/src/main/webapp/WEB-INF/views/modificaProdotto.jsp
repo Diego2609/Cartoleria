@@ -17,7 +17,7 @@
 				<tr>
 					<td>ID: </td>
 					<td>${prodotto.id}
-						<form:hidden path="id"/>
+						<form:hidden path="idProdotto"/>
 					</td>
 				</tr>			
 				<tr>
@@ -25,12 +25,8 @@
 					<td><form:input path="nome" /></td>
 				</tr>
 				<tr>
-					<td>Categoria: </td>
-					<td><form:input path="categoria" /></td>
-				</tr>
-				<tr>
 					<td>Quantità: </td>
-					<td><form:input path="qta" /></td>
+					<td><form:input type="number" path="qtaProdotto" /></td>
 				</tr>		
 				<tr>
 					<td colspan="2"><input type="submit" value="Salva"></td>

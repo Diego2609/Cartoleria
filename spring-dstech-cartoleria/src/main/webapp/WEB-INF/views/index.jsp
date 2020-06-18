@@ -15,7 +15,7 @@
 			<th>ID Prodotto</th>
 			<th>Nome</th>
 			<th>Qta Prodotto</th>
-			<th>Attività</th>
+			<th>Azione</th>
 		</tr>
 		<c:forEach items="${listProdotti}" var="p">
 		<tr>

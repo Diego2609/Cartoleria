@@ -31,7 +31,7 @@ public class ProductsController {
 	public String newProdottoForm(Model model) {
 		Prodotto prodotto = new Prodotto();
 		model.addAttribute("prodotto", prodotto);
-		return "nuovo_prodotto";
+		return "nuovoProdotto";
 	}
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST)

@@ -12,13 +12,14 @@
 <div align="center">
 		<h2>Aggiungi un Prodotto</h2>
 		<form:form action="save" method="post" modelAttribute="prodotto">
+		<table>
 				<tr>
 					<td>Nome: </td>
 					<td><form:input path="nome" /></td>
 				</tr>
 				<tr>
 					<td>Quantità: </td>
-					<td><form:input path="qta" /></td>
+					<td><form:input type="number" path="qtaProdotto" /></td>
 				</tr>		
 				<tr>
 					<td colspan="2"><input type="submit" value="Salva"></td>
